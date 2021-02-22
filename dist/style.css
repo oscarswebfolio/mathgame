@@ -1,0 +1,76 @@
+body {
+  background: url("https://bustin.com/wp-content/uploads/2016/01/Thankful-for-This-Simple-Math.jpg") center 200px;
+}
+
+#mathBox {
+  width: 400px;
+  padding: 10px;
+  background-color: silver;
+  margin: auto;
+  position: relative;
+  top: 155px;
+  border-radius: 22px;
+}
+#mathBox #title {
+  text-align: center;
+}
+#mathBox #btn, #mathBox input {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+#mathBox button {
+  background-color: rgba(200, 31, 122, 0.5);
+  color: white;
+  border: 1px solid black;
+  font-size: 23px;
+}
+#mathBox button:hover {
+  background-color: #c81f7a;
+}
+#mathBox input {
+  font-size: 20px;
+}
+#mathBox #flexContainer, #mathBox #flexContainer #numBox, #mathBox #flexContainer #numBoxTwo, #mathBox #flexContainer #operatorBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+#mathBox #flexContainer #numBox {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: teal;
+}
+#mathBox #flexContainer #numBoxTwo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: teal;
+}
+#mathBox #flexContainer #operatorBox {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+}
+
+.centerNum {
+  font-size: 40px;
+}
+
+#operatorSign {
+  color: white;
+}
+
+#check, #nextButton {
+  visibility: hidden;
+  margin: auto;
+  display: block;
+  margin-top: 10px;
+}
+
+#text {
+  text-align: center;
+  font-size: 30px;
+}

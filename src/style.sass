@@ -1,0 +1,62 @@
+body 
+  background: url('https://bustin.com/wp-content/uploads/2016/01/Thankful-for-This-Simple-Math.jpg') center 200px
+#mathBox
+  width: 400px
+  padding: 10px
+  background-color: silver
+  margin: auto
+  position: relative
+  top: 155px
+  border-radius: 22px
+  #title
+    text-align: center
+  #btn
+    display: block
+    margin: auto
+    margin-top: 10px
+  button
+    background-color: rgba(200, 31, 122, 0.5)
+    color: white
+    border: 1px solid black
+    font-size: 23px
+  button:hover
+    background-color: rgba(200, 31, 122, 1)
+  input
+    @extend #btn
+    font-size: 20px
+  #flexContainer
+    display: flex
+    align-items: center
+    justify-content: center
+    padding: 10px
+    #numBox
+      width: 100px
+      height: 100px
+      border-radius: 50%
+      background-color: teal
+      @extend #flexContainer
+    #numBoxTwo
+      width: 100px
+      height: 100px
+      border-radius: 50%
+      background-color: teal
+      @extend #flexContainer
+    #operatorBox
+      width: 50px
+      height: 50px
+      background-color: black
+      @extend #flexContainer
+.centerNum
+  font-size: 40px
+#operatorSign
+  color: white
+#check
+  visibility: hidden
+  margin: auto
+  display: block
+  margin-top: 10px
+#text
+  text-align: center
+  font-size: 30px
+#nextButton
+  @extend #check
